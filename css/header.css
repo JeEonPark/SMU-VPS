@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E121A;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #262A32;
+}
+
+/* items */
+.navbar #menu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar #menu li {
+    float: left;
+    margin-left: 50px;
+}
+
+.navbar #menu li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* login */
+.navbar .navbar-login .signin-button {
+    color: #56aee9;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.navbar .navbar-login .signup-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #5e6ad2;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.navbar .navbar-login a {
+    text-decoration: none;
+}
+
+
+/* hero header */
+
+/* products */
+
+/* footer */

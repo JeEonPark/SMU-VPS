@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    min-width: 1150px;
+    font-family: "Helvetica";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* first-discription */
+.first-discription {
+    height: 300px;
+    width: 100%;
+    background-color: #10151D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-discription span {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* second-discription */
+.second-discription {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 380px;
+}
+
+.second-discription span {
+    text-align: center;
+}
+
+.second-discription .supertext {
+    font-size: 14px;
+    font-weight: 100;
+    color: #5e6ad2
+}
+
+.second-discription .heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 1.15em;
+    font-weight: 800;
+    color: #333333;
+}
+
+.second-discription .discription-1 {
+    width: 65%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.second-discription .discription-1 span {
+    font-weight: 600;
+}
+
+.second-discription .foryou {
+    font-weight: 400;
+    font-size: 40px;
+    color: #5e6ad2;
+}
+
+/* third-discription */
+.third-discription {
+    background-color: #eaeff5;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-discription .inbox {
+    background-color: red;
+    max-width: 1200px;
+    width: 80%;
+    height: 370px;
+    padding: 97px 97px 97px 75px;
+    border-radius: 12px;
+    background-image: linear-gradient(48deg,#05f,rgba(0,85,255,0) 86%),
+                    linear-gradient(180deg,rgba(255,0,81,.16),rgba(255,0,119,.3)),linear-gradient(210deg,rgba(0,113,255,.94),rgba(255,0,81,.75));
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 13%), 0 20px 30px 0 rgb(0 0 0 / 15%);
+}
+
+.third-discription .inbox .inbox-text {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.third-discription .inbox .inbox-text span {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.third-discription .inbox .get-started-button {
+    padding: 20px 30px;
+    border-radius: 4px;
+    background-color: white;
+    color: #2948E2;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.third-discription .inbox .see-pricing-button {
+    margin-left: 10px;
+    padding: 20px 30px;
+    border-radius: 4px;
+    background-color: #5e6ad2;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
