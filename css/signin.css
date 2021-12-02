@@ -16,7 +16,7 @@ body {
 .login-form-container {
     width: 350px;
     height: 500px;
-    margin-top: 84px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -18,7 +18,7 @@
     <div style="width: 300px"></div>
     <div class="navbar-login">
         <a href="/signin.php" class="signin-button">Sign in</a>
-        <a href="#" class="signup-button">Sign up</a>
+        <a href="/signup.php" class="signup-button">Sign up</a>
     </div>
 
 </div>

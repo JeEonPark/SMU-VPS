@@ -13,20 +13,20 @@ body {
     align-items: center;
 }
 
-.login-form-container {
+.signup-form-container {
     width: 350px;
-    height: 500px;
-    margin-top: 84px;
+    height: 600px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.login-form-container .login-main-logo {
+.signup-form-container .signup-main-logo {
     padding: 14px
 }
 
-.login-form-container h1 {
+.signup-form-container h1 {
     color: white;
     width: 100%;
     font-weight: 400;
@@ -34,7 +34,7 @@ body {
     margin: 10px 0px;
 }
 
-.login-form-container h4 {
+.signup-form-container h4 {
     color: white;
     width: 100%;
     font-weight: 100;
@@ -42,7 +42,7 @@ body {
     margin: 10px 0px;
 }
 
-.login-form-container h5 {
+.signup-form-container h5 {
     color: white;
     width: 100%;
     font-weight: 100;
@@ -50,7 +50,7 @@ body {
     margin: 0px 0px;
 }
 
-.login-form-container h5 a{
+.signup-form-container h5 a{
     color: #5e6ad2;
     width: 100%;
     font-weight: 100;
@@ -59,20 +59,20 @@ body {
     text-decoration: none;
 }
 
-.login-form-container #login-form .form-group {
+.signup-form-container #signup-form .form-group {
     color: white;
     font-size: 11px;
     display: flex;
     flex-direction: column;
 }
 
-.login-form-container #login-form .form-group label {
+.signup-form-container #signup-form .form-group label {
     color: white;
     font-size: 11px;
     margin-bottom: 5px;
 }
 
-.login-form-container #login-form .form-group input {
+.signup-form-container #signup-form .form-group input {
     background-color: #0e1219;
     width: 100%;
     box-sizing: border-box;
@@ -85,7 +85,7 @@ body {
     color: #fff;
 }
 
-.login-form-container #login-form .form-group input:focus {
+.signup-form-container #signup-form .form-group input:focus {
     background-color: #181c24;
     outline: none;
     width: 100%;
@@ -99,7 +99,7 @@ body {
     color: #fff;
 }
 
-.login-form-container #login-form .login-button {
+.signup-form-container #signup-form .signup-button {
     color: white;
     width: 100%;
     height: 40px;

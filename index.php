@@ -32,7 +32,7 @@
                 </div>
                 <div style="height: 50px"></div>
                 <div>
-                    <a href="#" class="get-started-button">Get started</a>
+                    <a href="/signup.php" class="get-started-button">Get started</a>
                     <a href="#" class="see-pricing-button">See pricing</a>
                 </div>
             </div>

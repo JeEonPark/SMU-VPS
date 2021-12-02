@@ -14,7 +14,7 @@
                 </a>
             </div>
 
-            <h1 class="sign-in-text">
+            <h1>
                 Sign in
             </h1>
 
@@ -23,7 +23,7 @@
             </h4>
 
             <h5>
-                No account? <a href="#">Sign up for free!</a>
+                No account? <a href="/signup.php">Sign up for free!</a>
             </h5>
 
             <div style="height: 20px"></div>
