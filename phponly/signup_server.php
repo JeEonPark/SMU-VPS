@@ -59,7 +59,6 @@
         $sql = "select email from members where email='$email'";
         $result = mysqli_query($con, $sql);
         $num = mysqli_num_rows($result);
-        mysqli_close($con);
         
         if($num) {
             echo "
@@ -75,18 +74,14 @@
 
             mysqli_close($con);
 
-            echo $result;
-
             echo "
                 <script>
-                    location.href='index.php';
+                    alert('Signed up successfully! Please login!');
+                    location.href='../signin.php';
                 </script>
             ";
+        }
     }
-    }
-    
-
-    echo $email;
 
 
 ?>
