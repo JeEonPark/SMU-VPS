@@ -59,9 +59,24 @@
     text-decoration: none;
 }
 
+/* logined */
+.navbar .navbar-logined span {
+    color: white;
+    padding: 10px 0px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
 
-/* hero header */
+.navbar .navbar-logined a {
+    text-decoration: none;
+}
 
-/* products */
-
-/* footer */
+.navbar .navbar-logined .logout-button {
+    color: #56aee9;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}

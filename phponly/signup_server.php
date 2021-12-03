@@ -69,7 +69,7 @@
             ";
         } else {
 
-            $sql = "insert into members (email, username, password, reg_date) values('$email', '$username', '$password', '$reg_date')";
+            $sql = "insert into members (email, username, password, reg_date, admin) values('$email', '$username', '$password', '$reg_date', 0)";
             $result = mysqli_query($con, $sql);
 
             mysqli_close($con);

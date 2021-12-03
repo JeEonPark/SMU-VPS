@@ -4,9 +4,23 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/signin.css">
         <title>SMU VPS - Login</title>
+        <?php
+            include "phponly/server_info.php";
+            if($logined_email != ""){
+                echo "
+                    <script>
+                        alert('You already signed in.');
+                        history.go(-1);
+                    </script>
+                    ";
+            }
+        ?>
     </head>
 
     <body>
+        <?php
+            if($logined_email == "") {
+        ?>
         <div class="login-form-container">
             <div class="login-main-logo">
                 <a href="/index.php">
@@ -29,16 +43,16 @@
             <div style="height: 20px"></div>
 
             <div style="width: 100%;">
-                <form id="login-form">
+                <form id="login-form" method="POST" action="/phponly/signin_server.php">
                     <div>
                         <div class="form-group">
                             <label>Email</label>
-                            <input type="text" placeholder="Email">
+                            <input name="email" type="text" placeholder="Email">
                         </div>
                         <div style="height: 20px"></div>
                         <div class="form-group">
                             <label>Password</label>
-                            <input type="text" placeholder="Password">
+                            <input name="password" type="password" placeholder="Password">
                         </div>
                         <div style="height: 40px"></div>
                         <button class="login-button">
@@ -51,6 +65,8 @@
 
 
         </div>
+        
+        <?php } ?>
 
     </body>
 </html>
