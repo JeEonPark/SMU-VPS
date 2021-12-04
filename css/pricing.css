@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    min-width: 1171px;
+    font-family: "Helvetica";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---- first-discription ---- */
+.first-discription {
+    height: 300px;
+    width: 100%;
+    background-color: #10151D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-discription h4 {
+    color: #ff715b;
+    font-size: 20px;
+    margin: 2px 0px;
+}
+
+.first-discription h1 {
+    color: white;
+    margin: 2px 0px;
+    font-size: 50px;
+}
+
+.first-discription h5 {
+    color: hsla(0,0%,100%,.5);
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: 200;
+}
+
+.first-discription h5 a {
+    color: white;
+    text-decoration: none;
+}
+
+.second-discription {
+    height: 400px;
+    width: 100%;
+    background-color: #10151D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-discription .price-box {
+    background-color: hsla(0,0%,100%,.05);
+    height: 300px;
+    width: 70%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-discription .price-box .price-server-title {
+    margin-top: 40px;
+    width: 90%;
+    color: #ff715b;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.second-discription .price-box .price-core {
+    margin-top: 20px;
+    width: 90%;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.second-discription .price-box .price-core-discription {
+    margin-top: 10px;
+    width: 90%;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    font-weight: 200;
+}

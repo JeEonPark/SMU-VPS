@@ -72,7 +72,7 @@
     text-decoration: none;
 }
 
-.navbar .navbar-logined .logout-button {
+.navbar .navbar-logined .signout-button {
     color: #56aee9;
     padding: 10px 20px;
     border-radius: 4px;
