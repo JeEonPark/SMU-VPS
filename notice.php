@@ -23,7 +23,7 @@
             if ($total_record % $scale == 0) {
                 $total_page = floor($total_record / $scale);
             } else {
-                $total_page = floor($total_record/$scale) + 1; 
+                $total_page = floor($total_record / $scale) + 1; 
             }
 
             $start = ($page - 1) * $scale;

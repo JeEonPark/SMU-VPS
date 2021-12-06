@@ -6,53 +6,17 @@
         <link rel="stylesheet" href="css/signup.css">
         <title>SMU VPS - Sign up</title>
         <?php
-                include "phponly/server_info.php";
-                if($logined_email != ""){
-                    echo "
-                        <script>
-                            alert('Please logout before sign up.');
-                            history.go(-1);
-                        </script>
-                        ";
-                }
-            ?>
-
-        <script>
-            function check_input() {
-                if (!document.signup-form.email.value) {
-                    alert("아이디를 입력하세요!");
-                    document.signup-form.id.focus();
-                    return;
-                }
-
-                if (!document.signup-form.username.value) {
-                    alert("이름을 입력하세요!");
-                    document.signup-form.name.focus();
-                    return;
-                }
-
-                if (!document.signup-form.password.value) {
-                    alert("비밀번호를 입력하세요!");
-                    document.signup-form.pass.focus();
-                    return;
-                }
-
-                if (!document.signup-form.confirmpassword.value) {
-                    alert("비밀번호확인을 입력하세요!");
-                    document.signup-form.pass_confirm.focus();
-                    return;
-                }
-
-                if (document.signup-form.password.value != document.signup-form.confirmpassword.value) {
-                    alert("비밀번호가 일치하지 않습니다.\n다시 입력해 주세요!");
-                    document.signup-form.password.focus();
-                    document.signup-form.password.select();
-                    return;
-                }
-
-                document.signup-form.submit();
+            include "phponly/server_info.php";
+            if($logined_email != ""){
+                echo "
+                    <script>
+                        alert('Please logout before sign up.');
+                        history.go(-1);
+                    </script>
+                    ";
             }
-        </script>
+        ?>
+
 
     </head>
 
