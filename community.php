@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/notice.css">
-        <title>SMU VPS - Notice</title>
+        <link rel="stylesheet" href="css/community.css">
+        <title>SMU VPS - Community</title>
     </head>
 
     <body>
@@ -14,7 +14,7 @@
             } else {
                 $page = 1;
             }
-            $sql = "select * from notice order by num desc";
+            $sql = "select * from community order by num desc";
             $result = mysqli_query($con, $sql);
 	        $total_record = mysqli_num_rows($result); // 전체 글 수 (검색된 레코드 수)
 
@@ -34,7 +34,8 @@
 
         <div class="first-discription">
             <div class="notice-text">
-                <span style="font-size: 40px;">Notice</span>
+                <span style="font-size: 40px;">Community</span>
+                <a href="community_new.php"><div class="newbutton">New</div></a>
             </div>
             <!-- Borad -->
             <div class="board-list">
@@ -71,7 +72,7 @@
                         ?>
                         <tr>
                             <td class="td-c1"><?= $num ?></td>
-                            <td class="td-c2"><a href="/notice_view.php?number=<?= $num ?>"><?= $topic ?></a></td>
+                            <td class="td-c2"><a href="/community_view.php?number=<?= $num ?>"><?= $topic ?></a></td>
                             <td class="td-c3"><?= $auther ?></td>
                             <td class="td-c4"><?= $date ?></td>
                             <td class="td-c5"><?= $view ?></td>
@@ -95,7 +96,7 @@
                                 {
                                     $new_page = $page-1;
                                     ?>
-                                    <td class="enabled border-left" onClick="location.href='notice.php?page=<?= $new_page ?>'">Previous</td>
+                                    <td class="enabled border-left" onClick="location.href='community.php?page=<?= $new_page ?>'">Previous</td>
                                     <?php
                                 } else {
                                     ?>
@@ -113,7 +114,7 @@
                                         else
                                         {
                                             ?>
-                                            <td class="number unselected" onClick="location.href='notice.php?page=<?= $i ?>'"><?= $i ?></td>
+                                            <td class="number unselected" onClick="location.href='community.php?page=<?= $i ?>'"><?= $i ?></td>
                                             <?php
                                         }
                                     }
@@ -121,7 +122,7 @@
                                 {
                                     $new_page = $page+1;
                                     ?>
-                                    <td class="enabled border-right" onClick="location.href='notice.php?page=<?= $new_page ?>'">Next</td>
+                                    <td class="enabled border-right" onClick="location.href='community.php?page=<?= $new_page ?>'">Next</td>
                                     <?php
                                 } else {
                                     ?>

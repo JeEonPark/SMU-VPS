@@ -11,7 +11,7 @@
         
         <div class="first-discription">
             <h4>Pricing</h4>
-            <h1>Simple, flexibal pricing</h1>
+            <h1>Simple, flexible pricing</h1>
             <h5>Not sure where to start? Please contact to our <a href="/support.php">support team.</a></h5>
         </div>
 
@@ -45,9 +45,9 @@
                             <div class="price">$40<span style="font-size: 14px;"> / month</span></div>
                             <ul>
                                 <li>Private projects</li>
-                                <li>15GB storage</li>
-                                <li>Mid-range instance</li>
-                                <li>Faster free GPUs</li>
+                                <li>50GB storage</li>
+                                <li>High-end instance</li>
+                                <li>Fastest free GPUs</li>
                             </ul>
                             <a href="#" class="get-started">Get Started</a>
                         </div>
@@ -61,9 +61,9 @@
                             <div class="price">$120<span style="font-size: 14px;"> / month</span></div>
                             <ul>
                                 <li>Private projects</li>
-                                <li>15GB storage</li>
-                                <li>Mid-range instance</li>
-                                <li>Faster free GPUs</li>
+                                <li>200GB storage</li>
+                                <li>Extreme instance</li>
+                                <li>Dedicated GPUs</li>
                             </ul>
                             <a href="#" class="get-started">Get Started</a>
                         </div>

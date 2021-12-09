@@ -14,7 +14,7 @@ body {
 
 /* ---- first-discription ---- */
 .first-discription {
-    height: 760px;
+    height: auto;
     width: 100%;
     background-color: #10151D;
     display: flex;
@@ -44,42 +44,29 @@ body {
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-.first-discription .board-list .board-table {
-    margin: 5px;
-    width: 95%;
-    border-collapse: collapse;
+.board-list .title {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
 }
 
-.first-discription .board-list .board-table thead th {
-    border-bottom: 2px solid #6e6e6e;
-    height: 40px;
+.board-list .auther {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
-.first-discription .board-list .board-table tbody td {
-    border-top: 1px solid #dadada;
-    height: 50px;
+.board-list .date {
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 14px;
 }
 
-/* table td-c# */
-.first-discription .board-list .board-table .td-c1 {
-    text-align: center;
-    font-weight: 600;
-}
-.first-discription .board-list .board-table .td-c2 {
-    padding-left: 10px;
-}
-.first-discription .board-list .board-table .td-c3 {
-    text-align: center;
-}
-.first-discription .board-list .board-table .td-c4 {
-    text-align: center;
-}
-.first-discription .board-list .board-table .td-c5 {
-    text-align: center;
+.board-list .words {
+    margin: 30px;
 }
 
 /* number-list */
