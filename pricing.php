@@ -21,7 +21,55 @@
                 <div class="price-core">CORE</div>
                 <div class="price-core-discription">CORE is a high-performance computing platform built for a range of interactive applications and web services.</div>
                 <div class="price-core-products">
-                    
+
+                    <!-- prod-1 -->
+                    <div class="products">
+                        <div class="product-1">
+                            <div class="standard">Standard</div>
+                            <div class="price">$15<span style="font-size: 14px;"> / month</span></div>
+                            <ul>
+                                <li>Private projects</li>
+                                <li>15GB storage</li>
+                                <li>Mid-range instance</li>
+                                <li>Faster free GPUs</li>
+                            </ul>
+                            <a href="#" class="get-started">Get Started</a>
+                        </div>
+                    </div>
+                    <div style="width: 20px"></div>
+
+                    <!-- prod-2 -->
+                    <div class="products">
+                        <div class="product-2">
+                            <div class="pro">Pro</div>
+                            <div class="price">$40<span style="font-size: 14px;"> / month</span></div>
+                            <ul>
+                                <li>Private projects</li>
+                                <li>15GB storage</li>
+                                <li>Mid-range instance</li>
+                                <li>Faster free GPUs</li>
+                            </ul>
+                            <a href="#" class="get-started">Get Started</a>
+                        </div>
+                    </div>
+                    <div style="width: 20px"></div>
+
+                    <!-- prod-3 -->
+                    <div class="products">
+                        <div class="product-3">
+                            <div class="growth">Growth</div>
+                            <div class="price">$120<span style="font-size: 14px;"> / month</span></div>
+                            <ul>
+                                <li>Private projects</li>
+                                <li>15GB storage</li>
+                                <li>Mid-range instance</li>
+                                <li>Faster free GPUs</li>
+                            </ul>
+                            <a href="#" class="get-started">Get Started</a>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>

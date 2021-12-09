@@ -12,7 +12,7 @@
                         alert('You already signed in.');
                         history.go(-1);
                     </script>
-                    ";
+                ";
             }
         ?>
     </head>
@@ -61,9 +61,6 @@
                     </div>
                 </form>
             </div>
-
-
-
         </div>
         
         <?php } ?>

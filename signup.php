@@ -13,7 +13,7 @@
                         alert('Please logout before sign up.');
                         history.go(-1);
                     </script>
-                    ";
+                ";
             }
         ?>
 

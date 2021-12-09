@@ -16,7 +16,7 @@
             }
             $sql = "select * from notice order by num desc";
             $result = mysqli_query($con, $sql);
-	        $total_record = mysqli_num_rows($result); // 전체 글 수
+	        $total_record = mysqli_num_rows($result); // 전체 글 수 (검색된 레코드 수)
 
             $scale = 10;
             // 전체 페이지 수($total_page) 계산 
@@ -59,9 +59,9 @@
                         <?php
                             for ($i=$start; $i<$start+$scale && $i < $total_record; $i++)
                             {
-                                mysqli_data_seek($result, $i);
+                                mysqli_data_seek($result, $i); //mysqli_data_seek(쿼리 결과, 인덱스(0부터 시작));
                                 // 가져올 레코드로 위치(포인터) 이동
-                                $row = mysqli_fetch_array($result);
+                                $row = mysqli_fetch_array($result); //이동된 위치의 레코드 1개의 값들을 배열로 저장
                                 // 하나의 레코드 가져오기
                                 $num = $row["num"];
                                 $topic = $row["topic"];

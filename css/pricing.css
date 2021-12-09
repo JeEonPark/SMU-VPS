@@ -48,7 +48,7 @@ body {
 }
 
 .second-discription {
-    height: 400px;
+    height: auto;
     width: 100%;
     background-color: #10151D;
     display: flex;
@@ -58,7 +58,8 @@ body {
 
 .second-discription .price-box {
     background-color: hsla(0,0%,100%,.05);
-    height: 300px;
+    margin-bottom: 50px;
+    height: auto;
     width: 70%;
     border-radius: 12px;
     display: flex;
@@ -85,8 +86,108 @@ body {
 
 .second-discription .price-box .price-core-discription {
     margin-top: 10px;
+    margin-bottom: 20px;
     width: 90%;
     color: rgba(255, 255, 255, 0.6);
     font-size: 18px;
     font-weight: 200;
+}
+
+.second-discription .price-box .price-core-products {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.second-discription .price-box .price-core-products .products {
+    background-color: #252930;
+    width: 30%;
+    height: auto;
+    flex: 1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.second-discription .price-box .product-1 {
+    margin: auto auto;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.products .product-1 .standard {
+    color: #ffa55b;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.products .price {
+    margin-top: 15px;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.products ul {
+    margin-top: 25px;
+    -webkit-padding-start: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 200;
+}
+
+.products li {
+    margin-bottom: 10px;
+}
+
+.get-started {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #5e6ad2;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+
+.second-discription .price-box .product-2 {
+    margin: auto auto;
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.products .product-2 .pro {
+    color: #ff5b5b;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.products .product-3 .growth {
+    color: #22c049;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.second-discription .price-box .product-3 {
+    margin: auto auto;
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
