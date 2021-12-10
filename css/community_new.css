@@ -56,8 +56,9 @@ body {
     border-style: solid;
     border-color: #ffffff;
     padding: 11px 13px;
-    font-weight: 300;
+    font-weight: 400;
     color: black;
+    margin-bottom: 15px;
 }
 
 .board-list .topic-input:focus {
@@ -75,7 +76,7 @@ body {
     border-style: solid;
     border-color: #ffffff;
     padding: 11px 13px;
-    font-weight: 300;
+    font-weight: 400;
     color: black;
     resize: none;
 }

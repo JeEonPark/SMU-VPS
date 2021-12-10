@@ -4,10 +4,26 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/community_new.css">
         <title>SMU VPS - Notice</title>
+
+        <script>
+            function submit() {
+                document.community_topic_form.submit();
+            }
+        </script>
     </head>
 
     <body>
-        <?php include "header.php"; ?>
+        <?php include "header.php";
+            if($logined_email == ""){
+                echo "
+                    <script>
+                        alert('Please login before write new topic.');
+                        history.go(-1);
+                    </script>
+                ";
+            }
+            if($logined_email != "") {
+        ?>
         <?php
             if (isset($_GET["number"])) {
                 $num = $_GET["number"];
@@ -44,7 +60,7 @@
 
             <!-- Borad -->
             <div class="board-list">
-                <form>
+                <form name="community_topic_form" method="POST" action="/phponly/community_new_server.php">
                     <div>
                         <label>Topic :</label>
                         <input class="topic-input" type=text placeholder="Write your topic here"></input>
@@ -61,15 +77,14 @@
                 <div class="number-list">
                     <table class="number-table">
                         <tr>
-                            <td class="enabled border-left border-right" onClick="location.href='notice.php'">Back</td>
-                            
+                            <td class="enabled border-left border-right" onclick="submit()">Save</td>
                         </tr>
                     </table>
                 </div>
             </div>
         </div>
 
-        <?php include "footer.php"; ?>
+        <?php } include "footer.php"; ?>
 
     </body>
 </html>
