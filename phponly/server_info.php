@@ -7,6 +7,7 @@
     if(isset($_SESSION["logined_email"])) {
         $logined_email = $_SESSION["logined_email"];
         $logined_username = $_SESSION["logined_username"];
+        $logined_admin = $_SESSION["logined_admin"];
     } else {
         $logined_email = "";
     }

@@ -14,7 +14,7 @@ body {
 
 /* ---- first-discription ---- */
 .first-discription {
-    height: 760px;
+    height: auto;
     width: 100%;
     background-color: #10151D;
     display: flex;
@@ -27,12 +27,37 @@ body {
     margin-top: 50px;
     height: auto;
     width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .first-discription .notice-text span {
     color: white;
     text-align: center;
     font-weight: 600;
+}
+
+.first-discription .notice-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.first-discription .notice-text .newbutton {
+    padding: 8px 10px;
+    background-color: white;
+    height: auto;
+    width: auto;
+    border-radius: 4px;
+}
+
+.first-discription .notice-text .newbutton:hover {
+    padding: 8px 10px;
+    background-color: rgb(220, 220, 220);
+    height: auto;
+    width: auto;
+    border-radius: 4px;
 }
 
 /* --board-list-- */

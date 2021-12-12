@@ -22,7 +22,7 @@
                 <div class="price-core-discription">CORE is a high-performance computing platform built for a range of interactive applications and web services.</div>
                 <div class="price-core-products">
 
-                    <!-- prod-1 -->
+                    <!-- 제품-1 -->
                     <div class="products">
                         <div class="product-1">
                             <div class="standard">Standard</div>
@@ -38,7 +38,7 @@
                     </div>
                     <div style="width: 20px"></div>
 
-                    <!-- prod-2 -->
+                    <!-- 제품-2 -->
                     <div class="products">
                         <div class="product-2">
                             <div class="pro">Pro</div>
@@ -54,7 +54,7 @@
                     </div>
                     <div style="width: 20px"></div>
 
-                    <!-- prod-3 -->
+                    <!-- 제품-3 -->
                     <div class="products">
                         <div class="product-3">
                             <div class="growth">Growth</div>

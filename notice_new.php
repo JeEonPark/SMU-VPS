@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/community_new.css">
-        <title>SMU VPS - Community</title>
+        <link rel="stylesheet" href="css/notice_new.css">
+        <title>SMU VPS - Notice</title>
 
         <script>
             function submit() {
@@ -21,8 +21,15 @@
                         history.go(-1);
                     </script>
                 ";
+            } else if($_SESSION["logined_admin"] != 1) {
+                echo "
+                    <script>
+                        alert('Only admin can write the notice!');
+                        history.go(-1);
+                    </script>
+                ";
             }
-            if($logined_email != "") {
+            else {
         ?>
 
         <div class="first-discription">
@@ -33,7 +40,7 @@
 
             <!-- Board -->
             <div class="board-list">
-                <form name="community_topic_form" method="POST" action="/phponly/community_new_server.php">
+                <form name="community_topic_form" method="POST" action="/phponly/notice_new_server.php">
                     <div>
                         <label>Topic :</label>
                         <input name="topic" class="topic-input" type=text placeholder="Write your topic here"></input>

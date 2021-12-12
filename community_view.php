@@ -14,7 +14,7 @@
             } else {
                 $num = 1;
             }
-            $sql = "select * from notice where num=$num";
+            $sql = "select * from community where num=$num";
             $result = mysqli_query($con, $sql);
 	        $total_record = mysqli_num_rows($result); // 전체 글 수 (검색된 레코드 수)
 
@@ -29,7 +29,7 @@
 
             $n_view = $view + 1;
 
-            $sql = "update notice set view=$n_view where num=$num";
+            $sql = "update community set view=$n_view where num=$num";
             $result = mysqli_query($con, $sql);
 
             mysqli_close($con);
@@ -53,8 +53,7 @@
                 <div class="number-list">
                     <table class="number-table">
                         <tr>
-                            <td class="enabled border-left border-right" onClick="location.href='notice.php'">Back</td>
-                            
+                            <td class="enabled border-left border-right" onClick="location.href='community.php'">Back</td>
                         </tr>
                     </table>
                 </div>

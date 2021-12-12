@@ -21,14 +21,14 @@
             ";
     } else {
 
-        $sql = "insert into community (topic, words, auther, date, view) values('$topic', '$write', '$logined_username', '$date', 0)";
+        $sql = "insert into notice (topic, words, auther, date, view) values('$topic', '$write', '$logined_username', '$date', 0)";
         $result = mysqli_query($con, $sql);
 
         mysqli_close($con);
 
         echo "
             <script>
-                location.href='../community.php';
+                location.href='../notice.php';
             </script>
         ";
         

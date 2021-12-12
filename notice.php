@@ -35,6 +35,11 @@
         <div class="first-discription">
             <div class="notice-text">
                 <span style="font-size: 40px;">Notice</span>
+                <?php
+                    if($_SESSION["logined_admin"] == 1) {
+                ?>
+                <a href="notice_new.php"><div class="newbutton">New</div></a>
+                <?php } ?>
             </div>
             <!-- Borad -->
             <div class="board-list">

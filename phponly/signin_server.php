@@ -60,8 +60,10 @@
                         </script>
                     ";
                 } else {
+                    $db_admin = $userdata["admin"];
                     $_SESSION["logined_email"] = $email;
                     $_SESSION["logined_username"] = $db_username;
+                    $_SESSION["logined_admin"] = $db_admin;
                     echo "
                         <script>
                             location.href = '../index.php';
