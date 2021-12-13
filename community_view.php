@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/community_view.css">
-        <title>SMU VPS - Notice</title>
+        <title>SMU VPS - Community</title>
     </head>
 
     <body>
