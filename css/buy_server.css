@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    min-width: 1171px;
+    font-family: "Helvetica";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---- first-discription ---- */
+.first-discription {
+    height: 50px;
+    width: 100%;
+    background-color: #10151D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-discription h4 {
+    color: #ff715b;
+    font-size: 20px;
+    margin: 2px 0px;
+}
+
+.first-discription h1 {
+    color: white;
+    margin: 2px 0px;
+    font-size: 50px;
+}
+
+.first-discription h5 {
+    color: hsla(0,0%,100%,.5);
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: 200;
+}
+
+.first-discription h5 a {
+    color: white;
+    text-decoration: none;
+}
+
+.second-discription {
+    height: auto;
+    width: 100%;
+    background-color: #10151D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-discription .price-box {
+    background-color: hsla(0,0%,100%,.05);
+    margin-bottom: 50px;
+    height: auto;
+    width: 70%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-discription .price-box .price-core {
+    margin-top: 40px;
+    width: 90%;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.second-discription .price-box .price-core-discription {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.second-discription .price-box .price-core-products {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.second-discription .price-box .price-core-products .products {
+    background-color: #252930;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    flex: 1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.second-discription .price-box .product-1 {
+    margin: auto auto;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.products .product-1 .standard {
+    color: #ffa55b;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.products .price {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.products ul {
+    margin-top: 25px;
+    -webkit-padding-start: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 200;
+}
+
+.products li {
+    margin-bottom: 10px;
+}
+
+.get-started {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #5e6ad2;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+
+.second-discription .price-box .product-2 {
+    margin: auto auto;
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pro {
+    color: #ff5b5b;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.growth {
+    color: #22c049;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.second-discription .price-box .product-3 {
+    margin: auto auto;
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.standard {
+    color: #ffa55b;
+}
+
+.price-core-products label {
+    color: white;
+}
+
+.just-input {
+    background-color: #0e1219;
+    width: 40%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #262630;
+    padding: 11px 13px;
+    font-weight: 400;
+    color: white;
+}
+
+.just-input:focus {
+    background-color: #181c24;
+    outline: none;
+}
+
+.price-core-products div {
+    margin-bottom: 10px;
+}
+
+.price-core-products select {
+    background-color: #18191d;
+    color: white;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #262630;
+    padding: 11px 13px;
+}

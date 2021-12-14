@@ -33,7 +33,7 @@
                                 <li>Mid-range instance</li>
                                 <li>Faster free GPUs</li>
                             </ul>
-                            <a href="#" class="get-started">Get Started</a>
+                            <a href="/buy_server.php?product=standard" class="get-started">Get Started</a>
                         </div>
                     </div>
                     <div style="width: 20px"></div>
@@ -49,7 +49,7 @@
                                 <li>High-end instance</li>
                                 <li>Fastest free GPUs</li>
                             </ul>
-                            <a href="#" class="get-started">Get Started</a>
+                            <a href="/buy_server.php?product=pro" class="get-started">Get Started</a>
                         </div>
                     </div>
                     <div style="width: 20px"></div>
@@ -65,7 +65,7 @@
                                 <li>Extreme instance</li>
                                 <li>Dedicated GPUs</li>
                             </ul>
-                            <a href="#" class="get-started">Get Started</a>
+                            <a href="/buy_server.php?product=growth" class="get-started">Get Started</a>
                         </div>
                     </div>
 
