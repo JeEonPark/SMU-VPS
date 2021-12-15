@@ -31,4 +31,8 @@
 .footer-bar .copyright {
     color: white;
     font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

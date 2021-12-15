@@ -10,5 +10,6 @@
 
     <div class="copyright">
         <span>© 2021 JEEON PARK, All rights reserved.</span>
+        <span>This is not a real service, just for assignment and personal portfolio.</span>
     </div>
 </div>

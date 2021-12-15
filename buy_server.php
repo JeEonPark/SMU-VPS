@@ -7,7 +7,17 @@
     </head>
 
     <body>
-        <?php include "header.php"; ?>
+        <?php include "header.php"; 
+        
+        if($logined_email == ""){
+            echo "
+                <script>
+                    alert('Please sign in before buy the server.');
+                    location.href='/signin.php';
+                </script>
+            "; }
+            else {
+        ?>
         
         <div class="first-discription">
         </div>
@@ -27,7 +37,7 @@
                 <div class="price-core growth">Growth</div>
                 <?php } ?>
                 <div class="price-core-products">
-                    <form name="server_info" method="POST" action="buy_server_server.php?type=<?= $servertype ?>">
+                    <form name="server_info" method="POST" action="/phponly/buy_server_server.php?type=<?= $servertype ?>">
                         <div>
                             <label>Select region :</label>
                             <select name="region">
@@ -40,7 +50,7 @@
                         </div>
                         <div>
                             <label>Server name :</label>
-                            <input name="server_name" class="just-input" type=text></input>
+                            <input name="name" class="just-input" type=text></input>
                         </div>
                     
 
@@ -92,7 +102,7 @@
                                 <a href="javascript:{}" onclick="document.server_info.submit();" class="get-started">Create Server</a>
                             </div>
                         </div>
-                        <?php } ?>
+                        <?php }} ?>
                     </form>
 
 

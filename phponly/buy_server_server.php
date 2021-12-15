@@ -4,7 +4,7 @@
     $type= $_GET["type"];
     $region = $_POST["region"];
     $name = $_POST["name"];
-    $owner = $logined_username;
+    $owner = $logined_email;
 
 
     // Checking
@@ -36,8 +36,8 @@
 
             echo "
                 <script>
-                    alert('Server Created successfully!');
-                    location.href='../signin.php';
+                    alert('Server created successfully!');
+                    location.href='../index.php';
                 </script>
             ";
         }
