@@ -47,7 +47,7 @@
                             <?php } else { ?>
                             <div class="status">Status : <span class="off">OFF</span></div>
                             <?php } ?>
-                            <a href="#" class="get-started">Manage</a>
+                            <a href="/console.php" class="get-started">Manage</a>
                         </div>
                     </div>
                     <div style="width: 20px"></div>
