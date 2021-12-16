@@ -35,6 +35,7 @@
 
                         for($i=0; $i<$total_record; $i++) {
                             $result_fetch = mysqli_fetch_array($result);
+                            $server_num = $result_fetch["num"];
                             $server_name = $result_fetch["name"];
                             $server_status = $result_fetch["status"];
                     ?>
@@ -47,7 +48,7 @@
                             <?php } else { ?>
                             <div class="status">Status : <span class="off">OFF</span></div>
                             <?php } ?>
-                            <a href="/console.php" class="get-started">Manage</a>
+                            <a href="/console_manage.php?num=<?= $server_num ?>" class="get-started">Manage</a>
                         </div>
                     </div>
                     <div style="width: 20px"></div>
