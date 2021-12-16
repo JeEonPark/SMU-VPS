@@ -65,6 +65,7 @@
                     <div class="price-core">Member list</div>
                     <div class="products">
                         <div class="product-1">
+                            <?php if($server_owner === $logined_email) { ?>
                             <form name="addmember" action="/phponly/addmember_server.php?num=<?= $server_num ?>" method="POST">
                                 <label>
                                     Add member email : 
@@ -72,16 +73,24 @@
                                     <a href="javascript:{}" onclick="document.addmember.submit();" class="get-started">Add</a>
                                 </label>
                             </form>
+                            <?php } ?>
                             <?php
                                 $sql2="select * from core_server_member where server_num=$server_num";
                                 $result2 = mysqli_query($con, $sql2);
                                 $total_record2 = mysqli_num_rows($result2);
 
-                                $result_fetch2 = mysqli_fetch_array($result2);
-                                $email = $result_fetch2["member_email"];
-                                for($i=0; $i<$total_record2; $i++) {
+                                if($total_record2){
+
+                                    $result_fetch2 = mysqli_fetch_array($result2);
+                                    $email = $result_fetch2["member_email"];
+                                    for($i=0; $i<$total_record2; $i++) {
                             ?>
-                            <div class="member"><?= $email ?> <a href="/phponly/delete_member_server.php?server_num=<?= $server_num ?>&email=<?= $email ?>" class="get-started">Delete</a></span>
+                            <div class="member"><?= $email ?> <?php if($server_owner === $logined_email) { ?><a href="/phponly/delete_member_server.php?server_num=<?= $server_num ?>&email=<?= $email ?>" class="get-started">Delete</a><?php } ?></span>
+
+                            <?php }
+                            } else { ?>
+                                <div class="member">No member</div>
+
                             <?php } ?>
                         </div>
                     </div>

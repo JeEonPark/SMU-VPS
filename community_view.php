@@ -38,7 +38,7 @@
 
         <div class="first-discription">
             <div class="notice-text">
-                <span style="font-size: 40px;">Notice</span>
+                <span style="font-size: 40px;">Community</span>
             </div>
             <!-- Borad -->
             <div class="board-list">
